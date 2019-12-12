@@ -33,7 +33,7 @@ let routine = [
 
 let finalArray = []
 
-function exerciseDog(dogName, dogBreed) {
+function exerciseDog(dog_name, dog_breed) {
     for (let i = 0; i < routine.length; i++) {
         finalArray.push(routine[i](dogName, dogBreed))
     }
